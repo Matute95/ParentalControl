@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+header .container nav a
+{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 25px;
+}
+
+
+.header{
+   
+    background-color:#fff;
+    padding: 8px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+
+.inicio {
+    height: 100vh;
+  
+    /* 02 */
+    background-image: url(img/xd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:rgba(139, 174, 161, 0.9);
+}
+
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    
+    font-size: 30px;
+}
+
+/* Services */
+
+.subtitulo{
+    color: rgb(222, 160, 118);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: rgb(139, 174, 133);
+}
+
+.number{
+    display: inline-block;
+    /* 02 */
+    background-image: linear-gradient(to top, rgb(139, 174, 133) 0%, #adf7db 100%);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.gallery{
+    background: #f2f2f2;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.agregar-imagen{
+    width: 40%;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.experts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cont-expert img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.n-expert{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+footer{
+    background: rgb(222, 160, 118);
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color:rgb(234, 134, 133);
+}
+
+
+
